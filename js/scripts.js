@@ -3,6 +3,14 @@ document.addEventListener('DOMContentLoaded',function(){
   const y = new Date().getFullYear();
   const el = document.getElementById('year'); if(el) el.textContent = y;
 
+  // ensure theme color applied after load (changes browser UI color where supported)
+  (function setThemeColor(){
+    const desired = '#2b96aa';
+    let meta = document.querySelector('meta[name="theme-color"]');
+    if(!meta){ meta = document.createElement('meta'); meta.name = 'theme-color'; document.head.appendChild(meta); }
+    meta.setAttribute('content', desired);
+  })();
+
   // mobile menu
   const toggle = document.getElementById('menuToggle');
   const nav = document.getElementById('nav');
