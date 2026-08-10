@@ -18,13 +18,11 @@ document.addEventListener('DOMContentLoaded',function(){
   },{threshold:0.12});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-  // smooth scroll for internal links
+  // mobile menu behavior
   document.querySelectorAll('a[href^="#"]').forEach(a=>{
     a.addEventListener('click',e=>{
       const href = a.getAttribute('href');
       if(href.length>1){
-        e.preventDefault();
-        document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
         if(nav.classList.contains('open')) nav.classList.remove('open');
       }
     });
