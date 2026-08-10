@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Envora Facility Services — Housekeeping • Manpower • Management</title>
+  <meta name="description" content="Envora Facility Services provides professional housekeeping, trained manpower, and reliable facility management solutions.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home"><img src="images/logo.svg" alt="Envora logo"></a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Envora Facility Services</h1>
+          <p class="lead">Reliable housekeeping, trained manpower, and comprehensive facility management that keep your operations clean, safe, and efficient.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="#contact">Get a Quote</a>
+            <a class="btn ghost" href="#services">Our Services</a>
+          </p>
+          <ul class="hero-features">
+            <li>24/7 Support</li>
+            <li>Trained & Vetted Staff</li>
+            <li>Customized Service Plans</li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <img class="float-anim" src="images/hero-illustration.svg" alt="Cleaning and facility management illustration">
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p class="section-sub">Tailored solutions to meet facility needs of any scale.</p>
+        <div class="cards">
+          <article class="card reveal">
+            <img src="images/cleaning.svg" alt="Housekeeping">
+            <h3>Housekeeping</h3>
+            <p>Daily cleaning, deep-clean programs, surface sanitation and waste management using eco-friendly products and certified procedures.</p>
+          </article>
+
+          <article class="card reveal">
+            <img src="images/manpower.svg" alt="Manpower">
+            <h3>Manpower Supply</h3>
+            <p>Skilled and unskilled staff for reception, security support, janitorial teams and contract-based workforce managed by Envora.</p>
+          </article>
+
+          <article class="card reveal">
+            <img src="images/management.svg" alt="Facility Management">
+            <h3>Facility Management</h3>
+            <p>End-to-end facility operations, vendor coordination, preventive maintenance and cost-driven management strategies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div>
+          <h2>About Envora</h2>
+          <p>With years of experience serving commercial and residential clients, Envora focuses on operational excellence, staff reliability, and transparent pricing. We train our teams on safety, customer service, and environmental best practices.</p>
+          <ul class="about-list">
+            <li>Compliance-driven processes</li>
+            <li>Dedicated account managers</li>
+            <li>Quality assurance & regular audits</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Why choose us?</h3>
+          <p>We combine technology with human-centered service — regular reporting, scheduling flexibility, and quick response support so your facilities run smoothly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact & Quote</h2>
+        <p class="section-sub">Tell us about your facility and we'll send a tailored plan.</p>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <div class="form-grid">
+            <input type="text" placeholder="Full name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone" required>
+            <input type="text" placeholder="Location / City" required>
+            <textarea placeholder="Briefly describe your needs" rows="4"></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Request Quote</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Envora Facility Services — All rights reserved.</small>
+      <nav class="footer-nav">
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

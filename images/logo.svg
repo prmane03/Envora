@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <rect rx="8" width="40" height="40" fill="#1f6f8b"/>
+  <g transform="translate(52 6)" fill="#0f172a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="18">
+    <text x="0" y="16">Envora</text>
+  </g>
+</svg>
